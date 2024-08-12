@@ -49,7 +49,7 @@ export default function History({ profileDev }): ReactElement {
             component="div"
             sx={{ padding: "1em", textAlign: "center" }}
           >
-            Devs buscados recentes
+            Histórico de buscas
           </Typography>
         </BoxContent>
         {recentUsers.length === 0 ? (
@@ -75,7 +75,6 @@ export default function History({ profileDev }): ReactElement {
                 maxHeight: "25em",
                 overflowY: "auto",
                 padding: "1em",
-                // backgroundColor: "#828282",
                 borderRadius: "8px",
                 display: "flex",
                 flexDirection: "column",
