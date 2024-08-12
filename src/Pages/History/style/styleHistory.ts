@@ -56,12 +56,13 @@ export const BoxContent = styled.div<BackgroundBox>`
 `;
 
 export const BoxList = styled.div`
+  width: 100%;
   max-height: 50em;
   border-radius: 1em;
   overflow-y: auto;
   padding: 1em;
   border-radius: "8px";
-  background-color: #084887;
+  background-color: #ced3dc;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   @media (max-width: 768px) {
     padding: 0.5em;
