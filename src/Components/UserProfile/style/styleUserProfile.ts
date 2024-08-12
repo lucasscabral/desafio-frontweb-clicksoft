@@ -17,7 +17,7 @@ export const Content = styled.div`
   width: 100%;
   max-width: 25em;
   background-color: whitesmoke;
-  box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 4px 4px rgba(0, 0, 0, 0.1);
 
   padding: 1em;
   border-radius: 1em;
@@ -39,6 +39,6 @@ export const ImageProfile = styled.img`
 export const HeaderProfile = styled.div`
   display: flex;
   align-items: center;
-  width: 20em;
+  width: 100%;
   gap: 2em;
 `;
