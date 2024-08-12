@@ -26,7 +26,7 @@ export default function UserProfile({
   return (
     <Content>
       <Box width="30em">
-        <Box display="flex">
+        <Box width="100%" display="flex">
           <HeaderProfile>
             <ImageProfile
               style={{ cursor: "pointer" }}
