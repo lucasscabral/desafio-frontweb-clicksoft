@@ -9,8 +9,6 @@ export const Box = styled.div`
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 1000;
-
   @media (max-width: 768px) {
     padding: 0.5em 1em;
   }
